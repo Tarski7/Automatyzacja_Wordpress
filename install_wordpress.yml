@@ -3,6 +3,10 @@
   become: yes
   vars:
     wordpress_path: /var/www/wordpress
+    database_name: Automatyzacja_Wordpress
+    database_user: root
+    database_password: ''
+    database_host: localhost
   tasks:
     - include_tasks: tasks/os-dependencies.yml
     - include_tasks: tasks/wp-install.yml

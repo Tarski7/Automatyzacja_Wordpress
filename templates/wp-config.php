@@ -1,7 +1,7 @@
 <?php
 
-define('DB_NAME', 'Automatyzacja_Wordpress');
-define('DB_USER', 'root');
+define('DB_NAME', '{{database_name}}');
+define('DB_USER', '{{database_user}}');
 define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 define('DB_COLLATE', '');
