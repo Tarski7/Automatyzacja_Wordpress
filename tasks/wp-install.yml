@@ -15,9 +15,9 @@
     state: started
     
 
-- name: "Create a new database with name 'hello_db"
+- name: "Create a new database with name 'Automatyzacja_Wordpress"
   mysql_db:
-    name: hello_db
+    name: Automatyzacja_Wordpress
     state: present
 - name: "Copy apache config"
   template:
